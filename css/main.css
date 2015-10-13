@@ -94,8 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-article {
-    background-color: #c0c0c0;
+article{
+    background-color: black;
     border-color: grey;
     border-style: solid;
     border-width: 4px;
@@ -103,8 +103,18 @@ article {
     margin-bottom: 2rem;
     margin-left: 1rem;
     padding: 1rem;
-    width: 25rem;
-}
+    width: 15rem;
+	height: 10rem;}
+
+   header, h2{
+   	font-family: sans-serif;
+   	color: grey;
+   	margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding: 1rem
+
+   }
+
 
 
 
