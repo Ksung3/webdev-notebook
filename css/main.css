@@ -122,7 +122,10 @@ article{
 	justify-content: align-content;
 	
 }
-
+footer{
+	display: flex;
+	justify-content: center;
+}
 
 
 
