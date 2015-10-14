@@ -116,7 +116,10 @@ article{
 
    }
 
-.flexContainer{
+.flexContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: align-content;
 	
 }
 
