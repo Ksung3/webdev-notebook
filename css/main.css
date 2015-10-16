@@ -101,10 +101,10 @@ article{
     border-width: 4px;
     color: #ooo;
     margin-bottom: 4rem;
-    margin-left: 1rem;
-    padding: 1rem;
+    margin-left: 2rem;
+    padding: auto;
 
-    width: 20rem;
+    width: 25rem;
 	height: 20rem;}
 
    header {
@@ -115,6 +115,40 @@ article{
     padding: 3rem
     width: 300px;
    }
+   h2{
+	width: 450px;
+	font-family: sans-serif;
+   	color: grey;
+   	font-size: 30px;
+   	margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 3rem
+    width: 300px;
+}
+h3 {
+	padding-left: 10px;
+
+}
+li{ display: inline-block;
+	text-decoration: none;
+	}
+
+a:hover {
+    color: #FF00FF}
+a{
+	color: #000;
+}
+
+p{
+	padding-left: 12px;
+}
+.fixed-nav{
+style-position:fixed;
+z-index:99;
+width: 350px;
+clear: left;
+
+}
 
 .flexContainer {
 	display: flex;
@@ -122,14 +156,7 @@ article{
 	justify-content: align-content;
 	
 }
-footer{
-	display: flex;
-	justify-content: center;
-}
  
-li{ display: inline-block;
-	text-decoration: none;
-	}
 .flexContainer2{
 		display: flex;
 	flex-flow: row wrap;
@@ -146,28 +173,11 @@ li{ display: inline-block;
 	flex-flow: row wrap;
 	justify-content: align-content;
 }
-a:hover {
-    color: #FF00FF}
-a{
-	color: #000;
-}
-.fixed-nav{
-style-position:fixed;
-z-index:99;
-width: 350px;
-clear: left;
 
+footer{
+	display: flex;
+	justify-content: center;
 }
-h2{
-	width: 450px;
-	font-family: sans-serif;
-   	color: grey;
-   	margin-bottom: 2rem;
-    margin-left: 3rem;
-    padding: 3rem
-    width: 300px;
-}
-
 
 
 
